@@ -1,0 +1,93 @@
+body{
+    background-color: #dddddd;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
+.header-background{
+    background-color: #017cc2;
+    width: 100%;
+    height: 50px;
+}
+header{
+    margin: 0 auto;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+}
+header *{
+    text-decoration: none;
+}
+.category ul{
+    list-style: none;
+}
+.category ul li{
+    float: left;
+    width: 100px;
+}
+.login ul{
+    list-style: none;
+}
+.login ul li{
+    float: right;
+    width: 100px;
+}
+header a:link{
+    color: azure;
+}
+header a:visited{
+    color: azure;
+}
+
+.body-background{
+    margin: 0 auto;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+}
+.body-background section{
+    background-color: white;
+    margin: 10px;
+    border: 1px solid #004890;
+    padding: 10px;
+}
+.body-background main{
+    background-color: white;
+    margin: 10px;
+    border: 1px solid #004890;
+    padding: 10px;
+}
+
+.footer-background{
+    background-color: #017cc2;
+    width: 100%;
+    height: 50px;
+}
+footer{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+footer *{
+    color: azure;
+    font-style: normal;
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 400px 400px;
+}
+footer a:link{
+    color: azure;
+}
+footer a:visited{
+    color: azure;
+}
