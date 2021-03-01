@@ -1,4 +1,8 @@
 test.html
 app.js
 
-.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/task.json
+!.vscode/launch.json
+!.vscode/extensions.json
